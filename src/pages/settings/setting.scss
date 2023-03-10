@@ -1,0 +1,100 @@
+.settings__logo{
+    height: 13vh;
+    width: 13vw;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: #cbbba0;
+
+
+    background-image: url(../../Assets/img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center;
+}
+
+.settings__header{
+    background-color: #7b6a58;
+    color: #fff;
+    font-size: 28px;
+    width: 13vw;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.settings__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.settings__menu__img {
+    background-color: #fff;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 415px;
+    width: 415px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px #000;
+    display: flex;
+    align-items: center;
+}
+
+.settings__sound_icon{
+    background-image: url(../../Assets/img/settings__sound_icon.svg);
+    background-color: unset;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    height: 100px;
+    outline: none;
+    width: 100px;
+    margin-top: 40px;
+}
+
+.sound__range{
+    margin-top: 50px;
+    width: 80%;
+    
+}
+
+.check__volume{
+    height: 30px;
+    width: 30px;
+}
+
+.onoff__text {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+.save__button{
+    display: block;
+    margin: auto;
+    min-width: 150px;
+    margin-bottom: 20px;
+    background-color: #661004;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: normal;
+    line-height: 22px;
+
+    outline: none;
+    padding: 12px 37px 12px 37px;
+    position: relative;
+    text-transform: capitalize;
+    transition: box-shadow .5s ease-in-out;
+    position: relative;
+}
